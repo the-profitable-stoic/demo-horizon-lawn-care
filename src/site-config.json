@@ -1,0 +1,508 @@
+{
+  "business": {
+    "name": "Horizon Lawn Care",
+    "phone": "555-law-r90",
+    "category": "lawn-care",
+    "city": "Raleigh",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "lawn-care-trust-navy",
+      "categoryGroup": "lawn-care",
+      "name": "Trust Navy",
+      "recipeFile": "lawn-care/trust-navy.astro",
+      "colors": {
+        "primary": "#22C55E",
+        "primaryDark": "#15803D",
+        "primaryLight": "#c8f1d7",
+        "secondary": "#1da750",
+        "accent": "#A3E635",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#22C55E",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Quicksand",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "lawn-care/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Lawn Care Tailored to North Carolina's Climate",
+      "heroSubline": "Expert care for Raleigh's unique soil and weather challenges. Serving Durham, Cary, and Chapel Hill with science-backed lawn solutions.",
+      "aboutTitle": "Growing With Raleigh Since 2012",
+      "aboutText": [
+        "Founded by a NC State horticulture graduate, Horizon Lawn Care combines academic expertise with hands-on experience maintaining Triangle-area lawns.",
+        "We adapt our methods to Piedmont clay soil, using drought-resistant techniques in summer and preventative winterization for Raleigh's occasional ice storms.",
+        "Our team lives in the communities we serve, from Downtown Raleigh's historic districts to North Hills' new developments."
+      ],
+      "valueProps": [
+        {
+          "title": "Soil Scientists",
+          "description": "We test and amend Raleigh's heavy clay soil for better drainage and root health"
+        },
+        {
+          "title": "Storm-Ready",
+          "description": "Specialized cleanup after summer thunderstorms and winter ice in the Triangle"
+        },
+        {
+          "title": "Tech-Savvy",
+          "description": "Digital progress tracking for Brier Creek homeowners who travel frequently"
+        },
+        {
+          "title": "Native Experts",
+          "description": "Right plants for our climate - no more replacing fried Bermuda grass"
+        }
+      ],
+      "ctaHeadline": "See What Your Soil Needs",
+      "ctaSubline": "Free analysis of your lawn's unique challenges in Wake County"
+    },
+    "services": [
+      {
+        "slug": "clay-soil-amendment",
+        "name": "Clay Soil Solutions",
+        "shortDescription": "Transform Raleigh's stubborn red clay into fertile lawn-ready soil.",
+        "description": "Piedmont clay dominates lawns from Downtown Raleigh to Cary, creating drainage issues that drown grass roots in summer rains and bake hard in drought. Our 3-step process begins with core aeration to relieve compaction, followed by strategic compost incorporation to improve texture. We finish with pH-balanced gypsum treatments that help particles aggregate without harming nearby oak trees.\n\nFor new constructions in North Hills or Apex where builders scrape away topsoil, we install 4\" of quality screened loam before seeding. All amendments use organic materials from NC suppliers, avoiding synthetic polymers that fail in our freeze-thaw cycles.",
+        "process": [
+          "Step 1: Soil test identifies pH and compaction levels",
+          "Step 2: Deep-tine aeration with 3\" hollow tines",
+          "Step 3: Custom blend of compost and mineral amendments",
+          "Step 4: Overseeding with drought-tolerant fescue blends"
+        ],
+        "benefits": [
+          "Eliminate standing water after summer storms",
+          "Reduce required watering by up to 40%",
+          "Create habitat for beneficial soil microbes",
+          "Prevent cracking in drought conditions"
+        ],
+        "faq": [
+          {
+            "question": "How often does Raleigh clay need amending?",
+            "answer": "Most lawns need annual aeration and biennial compost topdressing. New constructions often require 3 years of intensive remediation."
+          },
+          {
+            "question": "Will this help with my Japanese maple's yellow leaves?",
+            "answer": "Yes - we address iron and manganese deficiencies common in Wake County's alkaline clay that affect ornamentals."
+          }
+        ]
+      },
+      {
+        "slug": "warm-season-turf",
+        "name": "Bermuda & Zoysia Care",
+        "shortDescription": "Specialized programs for Raleigh's most common warm-season grasses.",
+        "description": "Bermuda grass thrives in Raleigh's summer heat but requires precise timing for spring green-up and fall dormancy. Our monthly service includes targeted pre-emergent applications timed to NC State's growing degree day models, preventing crabgrass without harming your turf. For zoysia lawns common in Morrisville's newer developments, we use low-nitrogen fertilizers that prevent thatch buildup while encouraging deep roots.\n\nUnlike generic national programs, we adjust mowing heights seasonally - cutting Bermuda at 1.5\" during peak growth but raising to 2\" during August droughts. All clippings are processed through our specialized mowers that mulch finely enough to decompose rapidly, eliminating the need for bagging in most cases.",
+        "process": [
+          "Step 1: Dormant pre-emergent application in early March",
+          "Step 2: First mow at 50% green-up with sharpened reels",
+          "Step 3: Monthly liquid fertilizers with micronutrients",
+          "Step 4: Fall potassium boost for winter hardiness"
+        ],
+        "benefits": [
+          "Eliminate spring dead spot fungus",
+          "Reduce water needs with deeper roots",
+          "Prevent scalping on uneven terrain",
+          "Maintain green color longer in fall"
+        ],
+        "faq": [
+          {
+            "question": "Why does my Bermuda thin out near pine trees?",
+            "answer": "Pine straw raises soil acidity - we apply targeted lime treatments and switch to shade-tolerant varieties in these zones."
+          },
+          {
+            "question": "When should I transition from Bermuda to fescue?",
+            "answer": "We recommend cool-season blends only for shaded ITB properties - Bermuda outperforms in 90% of Raleigh lawns."
+          }
+        ]
+      },
+      {
+        "slug": "storm-recovery",
+        "name": "Storm Damage Cleanup",
+        "shortDescription": "Rapid response for fallen limbs and flood-damaged lawns.",
+        "description": "Raleigh's severe summer thunderstorms and occasional ice storms leave lawns vulnerable. Our emergency crews prioritize safety with certified arborists for hanging limb removal in neighborhoods like Five Points with mature hardwoods. For flood-damaged areas near Crabtree Creek, we employ specialized hydroseeding to rebuild washed-out topsoil without importing weed seeds.\n\nAfter major events like 2023's Christmas ice storm, we implement a 3-phase recovery: immediate debris removal with brush hogs, soil aeration to relieve compaction from equipment traffic, and finally customized reseeding based on sun exposure. All work is documented for insurance claims with before/after photos geotagged to your property.",
+        "process": [
+          "Step 1: Safety inspection and hazard mitigation",
+          "Step 2: Selective debris removal preserving healthy plants",
+          "Step 3: Soil remediation based on flood duration",
+          "Step 4: Erosion control matting on steep banks"
+        ],
+        "benefits": [
+          "24-hour emergency response team",
+          "Proper disposal of storm debris",
+          "Prevent secondary fungal infections",
+          "Restore drainage patterns"
+        ],
+        "faq": [
+          {
+            "question": "Will you remove a tree that fell on my fence?",
+            "answer": "We handle all lawn-related debris and can recommend licensed arborists for structural damage."
+          },
+          {
+            "question": "How soon after flooding can you reseed?",
+            "answer": "After waters recede, we wait 48 hours for soil to drain before assessing - rushing can wash away new seed."
+          }
+        ]
+      },
+      {
+        "slug": "new-construction",
+        "name": "New Home Lawn Installation",
+        "shortDescription": "From builder's clay to established lawn in one season.",
+        "description": "New developments in Apex and Brier Creek often leave homeowners staring at compacted subsoil dotted with construction debris. Our turnkey process begins with thorough soil screening to remove nails and concrete chunks, followed by subsoiling to break up plow pans. We then grade properties to direct water away from foundations - critical in Raleigh's heavy downpours.\n\nFor quick establishment, we install certified TifTuf Bermuda sod on sunny lots and GeoZoysia on partial shade properties. Both varieties were tested at NC State for our climate. Irrigation systems are carefully programmed to phase out supplemental watering as roots establish, preventing the overwatering that causes fungal issues in new lawns.",
+        "process": [
+          "Step 1: Debris removal and subsoil decompaction",
+          "Step 2: Precision grading with laser levels",
+          "Step 3: Organic matter incorporation",
+          "Step 4: Sod installation with staggered seams"
+        ],
+        "benefits": [
+          "Avoid costly regrading later",
+          "Immediate 90% coverage",
+          "Erosion control during establishment",
+          "Builder warranty compliance"
+        ],
+        "faq": [
+          {
+            "question": "How long until my new sod can handle foot traffic?",
+            "answer": "Light use after 2 weeks, full use at 4 weeks - we'll provide specific guidance based on weather."
+          },
+          {
+            "question": "Do you work with my builder's landscaper?",
+            "answer": "Yes - we coordinate with all parties to meet certificate of occupancy requirements."
+          }
+        ]
+      },
+      {
+        "slug": "pollinator-gardens",
+        "name": "Native Plant Landscaping",
+        "shortDescription": "Low-maintenance, drought-resistant gardens that support local ecology.",
+        "description": "Chapel Hill and Durham homeowners increasingly seek landscapes that support bees, butterflies, and hummingbirds. Our designs use NC-native plants like purple coneflower and beardtongue that thrive in Piedmont clay with minimal irrigation. We cluster plants by water needs, creating micro-zones that prevent overwatering drought-tolerant species.\n\nFor properties near the Museum Park or Umstead Park, we incorporate deer-resistant varieties and strategic brush piles that shelter songbirds. Maintenance programs focus on selective hand-weeding to preserve self-seeding annuals, with organic pest controls that won't harm pollinators. All designs include winter interest elements like evergreen mountain mint and berry-producing shrubs.",
+        "process": [
+          "Step 1: Site analysis of sun patterns and drainage",
+          "Step 2: Custom plant palette selection",
+          "Step 3: Soil preparation with mycorrhizal inoculants",
+          "Step 4: Installation with proper spacing for maturity"
+        ],
+        "benefits": [
+          "50% less watering than traditional beds",
+          "Eliminate need for chemical pesticides",
+          "Year-round visual interest",
+          "Support local migratory species"
+        ],
+        "faq": [
+          {
+            "question": "Will native plants survive under my oak trees?",
+            "answer": "Yes - we use understory species like wild ginger and Christmas fern adapted to dry shade."
+          },
+          {
+            "question": "How do I prevent rabbits from eating everything?",
+            "answer": "We install discreet rabbit fencing for vulnerable young plants until established."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith K.",
+        "rating": 5,
+        "service": "Clay Soil Amendment",
+        "text": "After years of failed DIY attempts to fix the swampy mess behind our 1960s ranch near Pullen Park, Horizon's core aeration and compost topdressing solved it in one season. They even identified an underground spring contributing to the issue.",
+        "date": "2024-03-15"
+      },
+      {
+        "name": "Devin R.",
+        "rating": 5,
+        "service": "New Construction Lawn",
+        "text": "Our Brier Creek builder left us with nothing but compacted clay. Horizon screened out construction debris, graded properly, and installed zoysia that stayed green through last summer's drought. Neighbors are jealous.",
+        "date": "2023-11-02"
+      },
+      {
+        "name": "Lisa T.",
+        "rating": 4,
+        "service": "Storm Damage Cleanup",
+        "text": "When the ice storm took down three dogwoods onto our Five Points lawn, they had crews out within 12 hours. The careful root zone protection during cleanup saved our remaining trees.",
+        "date": "2023-01-18"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Warm-Season Turf",
+        "text": "As a transplant from Michigan, I didn't know how to care for Bermuda grass. Horizon's monthly service has our North Hills lawn looking better than the golf courses at Prestonwood.",
+        "date": "2024-05-22"
+      },
+      {
+        "name": "Naomi W.",
+        "rating": 5,
+        "service": "Pollinator Gardens",
+        "text": "Our Chapel Hill cottage garden is now a Certified Wildlife Habitat thanks to Horizon's native plant design. The monarch butterflies arrived within two weeks of planting!",
+        "date": "2023-09-30"
+      },
+      {
+        "name": "James P.",
+        "rating": 4,
+        "service": "Clay Soil Amendment",
+        "text": "They transformed our brick-hard Downtown Raleigh yard into actual soil that grows grass. Only complaint is they're so popular it took 3 weeks to get on their schedule.",
+        "date": "2024-04-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Raleigh Lawn Care Specialists | Horizon Lawn Care",
+        "description": "Expert lawn services for Raleigh's unique soil and climate. Serving Durham, Cary, Chapel Hill with science-backed solutions."
+      },
+      "about": {
+        "title": "About Our Raleigh Lawn Care Company | Horizon",
+        "description": "Local lawn experts serving the Triangle since 2012. Specializing in Piedmont clay, storm recovery, and native plant landscaping."
+      },
+      "services": {
+        "title": "Raleigh Lawn Services | Soil, Turf, Storm Repair",
+        "description": "Comprehensive lawn care programs tailored to North Carolina's climate challenges and specific grass types."
+      },
+      "contact": {
+        "title": "Contact Horizon Lawn Care in Raleigh, NC",
+        "description": "Get a free lawn analysis for your Wake County property. Serving Durham, Cary, Apex, Chapel Hill, and Morrisville."
+      },
+      "reviews": {
+        "title": "Raleigh Lawn Care Reviews | Horizon Clients",
+        "description": "See what Triangle-area homeowners say about our clay soil solutions, storm cleanup, and turf management services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Durham",
+        "slug": "durham-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care proudly serves the vibrant city of Durham, NC, where historic charm meets modern living. Our expert lawn care services are tailored to the unique needs of Durham's diverse landscapes, from renovated industrial lofts downtown to sprawling suburban yards. With hot, humid summers, maintaining a healthy lawn requires specialized care, and our team is equipped to handle everything from fertilization to weed control.\n\nDurham's mix of urban and suburban environments means we encounter a variety of lawn care challenges. Whether you're in a historic neighborhood or a newer development, we provide customized solutions to keep your lawn lush and green year-round. Our services include mowing, aeration, and seasonal clean-ups, ensuring your outdoor space thrives in Durham's climate.",
+        "localContext": "Durham is known for its renovated industrial lofts downtown and a thriving cultural scene.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Chapel Hill",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Cary",
+        "slug": "cary-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care is your trusted partner for maintaining beautiful lawns in Cary, NC. This family-friendly community features master-planned neighborhoods from the 1980s to 2000s, each with its own landscaping needs. Our team understands the importance of curb appeal in Cary's well-kept communities and offers comprehensive lawn care services to match.\n\nCary's hot, humid summers can be tough on grass, but our tailored fertilization and pest control programs ensure your lawn stays healthy. From regular mowing to seasonal landscaping, we help homeowners achieve the pristine yards that Cary is known for. Let us take the hassle out of lawn care so you can enjoy your outdoor space.",
+        "localContext": "Cary is characterized by its master-planned communities and family-oriented atmosphere.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Apex",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Chapel Hill",
+        "slug": "chapel-hill-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care provides top-notch lawn services to the charming town of Chapel Hill, NC. Home to the University of North Carolina, Chapel Hill boasts a mix of historic homes and modern residences, each requiring specialized care. Our team is experienced in handling the unique challenges of Chapel Hill's diverse housing styles and climates.\n\nWith hot, humid summers, Chapel Hill lawns need consistent attention to stay healthy. We offer services like weed control, aeration, and irrigation management to keep your yard in top shape. Whether you're a busy professor or a student renting a home, we make lawn care easy and affordable.",
+        "localContext": "Chapel Hill is a university town with a mix of historic and modern housing.",
+        "nearbyAreas": [
+          "Durham",
+          "Carrboro",
+          "Hillsborough"
+        ]
+      },
+      {
+        "city": "Apex",
+        "slug": "apex-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care is proud to serve the growing community of Apex, NC. Known for its newer family developments from the 2000s to 2020s, Apex offers spacious yards that require expert care. Our team is dedicated to helping homeowners maintain lush, healthy lawns that enhance their property's value.\n\nApex's hot, humid summers demand a proactive approach to lawn care. We provide services like fertilization, pest control, and overseeding to keep your grass thriving. Whether you're new to Apex or a long-time resident, our personalized lawn care plans are designed to meet your specific needs.",
+        "localContext": "Apex is known for its newer family developments and small-town charm.",
+        "nearbyAreas": [
+          "Cary",
+          "Holly Springs",
+          "Fuquay-Varina"
+        ]
+      },
+      {
+        "city": "Morrisville",
+        "slug": "morrisville-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care delivers exceptional lawn services to Morrisville, NC, a hub for tech workers near Research Triangle Park. Morrisville's diverse housing includes modern homes and townhouses, each with unique landscaping needs. Our team is skilled in providing tailored care to keep your lawn looking its best.\n\nMorrisville's hot, humid climate can be challenging for lawns, but our expert services ensure your yard stays healthy. From regular mowing to specialized treatments, we cover all aspects of lawn care. Let us help you create an outdoor space you can enjoy year-round.",
+        "localContext": "Morrisville is a tech-centric community with a mix of modern housing options.",
+        "nearbyAreas": [
+          "Cary",
+          "Durham",
+          "Raleigh"
+        ]
+      },
+      {
+        "city": "Raleigh",
+        "slug": "raleigh-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care is proud to serve the capital city of Raleigh, NC. Raleigh's diverse neighborhoods range from historic districts to new subdivisions, each with its own lawn care requirements. Our team is experienced in addressing the unique needs of Raleigh's varied landscapes.\n\nWith hot, humid summers, Raleigh lawns need consistent care to stay vibrant. We offer comprehensive services, including mowing, fertilization, and weed control, to keep your yard in top condition. Whether you're in a downtown condo or a suburban home, we have the expertise to meet your lawn care needs.",
+        "localContext": "Raleigh is a bustling city with a mix of historic and modern neighborhoods.",
+        "nearbyAreas": [
+          "Cary",
+          "Durham",
+          "Garner"
+        ]
+      },
+      {
+        "city": "Holly Springs",
+        "slug": "holly-springs-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care provides expert lawn services to Holly Springs, NC, a rapidly growing community with family-friendly neighborhoods. Holly Springs' newer developments feature spacious yards that benefit from our professional care. Our team is dedicated to helping homeowners maintain healthy, attractive lawns.\n\nHolly Springs' hot, humid summers require specialized lawn care to keep grass thriving. We offer services like aeration, overseeding, and pest control to address the challenges of the local climate. Let us take the guesswork out of lawn care so you can enjoy your outdoor space.",
+        "localContext": "Holly Springs is known for its family-friendly atmosphere and newer developments.",
+        "nearbyAreas": [
+          "Apex",
+          "Fuquay-Varina",
+          "Cary"
+        ]
+      },
+      {
+        "city": "Fuquay-Varina",
+        "slug": "fuquay-varina-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care is your go-to for lawn services in Fuquay-Varina, NC. This charming town features a mix of historic homes and new construction, each with unique landscaping needs. Our team is skilled in providing customized care to keep your lawn looking its best.\n\nFuquay-Varina's hot, humid climate can be tough on lawns, but our expert services ensure your yard stays healthy. From fertilization to weed control, we cover all aspects of lawn care. Whether you're in an older neighborhood or a new subdivision, we have the solutions you need.",
+        "localContext": "Fuquay-Varina combines historic charm with modern growth.",
+        "nearbyAreas": [
+          "Holly Springs",
+          "Apex",
+          "Garner"
+        ]
+      },
+      {
+        "city": "Garner",
+        "slug": "garner-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care proudly serves Garner, NC, a community with a mix of established neighborhoods and new developments. Garner's diverse housing styles require tailored lawn care solutions, and our team is up to the task. We help homeowners maintain beautiful, healthy lawns year-round.\n\nGarner's hot, humid summers demand consistent lawn care to keep grass thriving. Our services include mowing, fertilization, and pest control, all designed to meet the needs of local yards. Let us handle the hard work so you can enjoy your outdoor space.",
+        "localContext": "Garner offers a blend of established neighborhoods and new growth.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Fuquay-Varina",
+          "Clayton"
+        ]
+      },
+      {
+        "city": "Wake Forest",
+        "slug": "wake-forest-nc",
+        "state": "NC",
+        "content": "Horizon Lawn Care provides top-quality lawn services to Wake Forest, NC, a town known for its historic charm and modern amenities. Wake Forest's mix of older homes and new subdivisions means varied lawn care needs, and our team is equipped to handle them all.\n\nWith hot, humid summers, Wake Forest lawns benefit from our expert care. We offer services like aeration, overseeding, and irrigation management to keep your yard healthy. Whether you're in a historic district or a new development, we have the expertise to meet your needs.",
+        "localContext": "Wake Forest combines historic charm with modern suburban living.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Rolesville",
+          "Youngsville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "storm-recovery": "/images/service-storm-recovery.webp",
+      "clay-soil-amendment": "/images/service-clay-soil-amendment.webp",
+      "warm-season-turf": "/images/service-warm-season-turf.webp",
+      "new-construction": "/images/service-new-construction.webp",
+      "pollinator-gardens": "/images/service-pollinator-gardens.webp"
+    },
+    "servicesResponsive": {
+      "storm-recovery": {
+        "src": "/images/service-storm-recovery.webp",
+        "srcset": "/images/service-storm-recovery-400w.webp 400w, /images/service-storm-recovery-800w.webp 800w, /images/service-storm-recovery-1200w.webp 1200w, /images/service-storm-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "clay-soil-amendment": {
+        "src": "/images/service-clay-soil-amendment.webp",
+        "srcset": "/images/service-clay-soil-amendment-400w.webp 400w, /images/service-clay-soil-amendment-800w.webp 800w, /images/service-clay-soil-amendment-1200w.webp 1200w, /images/service-clay-soil-amendment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "warm-season-turf": {
+        "src": "/images/service-warm-season-turf.webp",
+        "srcset": "/images/service-warm-season-turf-400w.webp 400w, /images/service-warm-season-turf-800w.webp 800w, /images/service-warm-season-turf-1200w.webp 1200w, /images/service-warm-season-turf.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "new-construction": {
+        "src": "/images/service-new-construction.webp",
+        "srcset": "/images/service-new-construction-400w.webp 400w, /images/service-new-construction-800w.webp 800w, /images/service-new-construction-1200w.webp 1200w, /images/service-new-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pollinator-gardens": {
+        "src": "/images/service-pollinator-gardens.webp",
+        "srcset": "/images/service-pollinator-gardens-400w.webp 400w, /images/service-pollinator-gardens-800w.webp 800w, /images/service-pollinator-gardens-1200w.webp 1200w, /images/service-pollinator-gardens.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
